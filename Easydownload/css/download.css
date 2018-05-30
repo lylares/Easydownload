@@ -1,0 +1,16 @@
+*{margin:0;padding:0;}
+a{color:#ff3800;text-decoration:none;}
+a:hover{color:green;border-bottom:1px dashed #F30;}
+a img { border:0 } ul{margin:5px;padding:5px;}
+ul li{line-height:15px;font-size:14px;padding:5px;border-bottom:1px dashed #ddd;list-style: none outside none;}
+h1{ text-align: center;border-bottom:1px solid #dadada;clear:both;font:26px Georgia,"Times New Roman",Times,serif;margin:5px 0 0 -4px;padding:0;padding-bottom:7px;font-weight:bold;}
+h2{color:#FF0080;font-size:16px;}
+h3{color: #666666;font-size: 15px;margin: 15px 0 10px;}
+p{padding-bottom:2px;font-size:13px;line-height:22px;}
+html{background:#F2F2F2;}
+body{background:#fff;color:#333;font-family:"Microsoft YaHei",Helvetica,sans-serif;margin:2em auto;width:728px;padding:1em 2em;border:1px solid #dfdfdf;}
+.clear { clear:both; height:1px; }
+#header{padding: 10px 0 15px 10px;text-align:center;}
+.list{background: none repeat scroll 0 0 #F2F2F2;border: 1px solid #BFBFBF;color: #666666;font-size: 12px;height: 30px;margin: 15px 0 10px;padding: 10px 0 0 10px;}
+.list a{display: inline-block;padding:2px 4px;}
+.sm, .desc{background:#F2F2F2;border: 1px solid #BFBFBF;color: #666666;font-size: 13px;margin: 10px 0;}

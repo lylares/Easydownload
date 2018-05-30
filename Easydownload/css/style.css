@@ -1,0 +1,27 @@
+/* Design By liulin.in
+2018.05.25
+ */
+ a{text-decoration : none}
+.Easydownload{width:615px;height:45px; border:1px dashed #ddd; padding:10px; margin:10px 0;line-height:24px;border-radius: 3px;}
+.Easydownload a{text-decoration:none;}
+.Easydownload .downbtn{width: 88px;height:50px;padding: 10px 35px 10px 55px;background: url(../img/down.jpg) repeat-x;color: #ffffff;font-size: 20px;display: block;}
+.Easydownload .xydowntext{padding-left:10px;font-size:12px;}
+.lylaresdown_downlinks{width:100%;}
+.Easydownload_views{color:red;}
+.Easydownload_box{border-bottom:1px solid #aaa; padding:10px 0;}
+.Easydownload_box_content{line-height:18px; padding:0 0 0 10px;}
+.Easydownload_box_content p{margin:5px 0;}
+.Easydownload_box_content a:hover{color:#1d1d1d;}
+.Easydownload_left{float:left; width:320px;}
+.Easydownload_right{width:160px; float:right; margin:0 auto;}
+.Easydownload_right img{max-width:160px;}
+.Easydownload_notice{padding-top:10px; text-align:center;}
+.downbtn{background: none repeat scroll 0 0 #1BA1E2; border: 0 none; border-radius: 2px; color: #FFFFFF; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 8px 30px;text-transform:none;text-decoration:none;}
+.downlink a:link{color: #ffffff;}
+.downlink a:visited{color: #ffffff;}
+.downlink a:hover{color: #ffffff;}
+.downlink a:active{color: #ffffff;}
+.downbtn{background: none repeat scroll 0 0 #1BA1E2; border: 0 none; border-radius: 2px; color: #FFFFFF !important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 8px 30px;}
+.yanshibtn{background: none repeat scroll 0 0 #d33431; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 8px 30px;text-transform:none;text-decoration:none;}
+.downbtn:hover,.yanshibtn:hover{background: none repeat scroll 0 0 #9B59B6; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 8px 30px;}
+.downbtn a:hover,.yanshibtn a:hover{background: none repeat scroll 0 0 #9B59B6; border: 0 none; border-radius: 2px; color: #FFFFFF; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 8px 30px;}
