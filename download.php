@@ -1,6 +1,6 @@
 <!-- O(∩_∩)O~
 Wordpress插件:Easydownload
-作者:liulin.in
+作者:lylares
 插件使用:https://www.lylares.com/wordpress-plugins-easydownload.html
 -->
 <?php
