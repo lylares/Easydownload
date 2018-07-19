@@ -382,22 +382,10 @@ echo $Easydownload_other_password;
 		</div>
     </div>
 		<!-- Core JS Files -->
-		<script src="//api.lylares.com/server/static/easydownload/assets/js/core/jquery.min.js">
-		</script>
-		<script src="//api.lylares.com/server/static/easydownload/assets/js/core/popper.min.js">
-		</script>
-		<script src="//api.lylares.com/server/static/easydownload/assets/js/bootstrap-material-design.min.js">
-		</script>
-
-		<script src="//api.lylares.com/server/static/easydownload/assets-for-demo/js/modernizr.js">
-		</script>
-		<script src="//api.lylares.com/server/static/easydownload/assets/assets-for-demo/js/vertical-nav.js">
-		</script>
-
-		<script src="//api.lylares.com/server/static/easydownload/assets/js/material-kit.min.js?v=2.0.3">
-		</script>
-
-		<script src="//api.lylares.com/server/static/easydownload/assets-for-demo/js/material-kit-demo.js">
-		</script>	
+		<script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://static.lylares.com/mtl/js/core/popper.min.js"></script>
+                <script src="https://static.lylares.com/mtl/js/bootstrap-material-design.min.js"></script>
+		<script src="https://static.lylares.com/hestia/assets/assets-for-demo/js/modernizr.js"></script>
+		<script src="https://cdn.lylares.com/static/material-design/js/materialBerry-main.js"></script>
 	</body>
 </html>
