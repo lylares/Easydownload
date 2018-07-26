@@ -50,9 +50,8 @@ echo $Easydownload_other_password;
 		<!-- Fonts and icons //api.lylares.com/server/static/easydownload/-->
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
 		/>
-		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link rel="stylesheet" href="//api.lylares.com/server/static/easydownload/assets/css/material-kit.min.css">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://api.lylares.com/server/static/easydownload/css/main.css">
 		<!-- Documentation extras -->
 		<style>
 			.list-group-item :first-child { margin-right: 0.2rem; }
@@ -383,9 +382,31 @@ echo $Easydownload_other_password;
     </div>
 		<!-- Core JS Files -->
 		<script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://static.lylares.com/mtl/js/core/popper.min.js"></script>
-                <script src="https://static.lylares.com/mtl/js/bootstrap-material-design.min.js"></script>
-		<script src="https://static.lylares.com/hestia/assets/assets-for-demo/js/modernizr.js"></script>
-		<script src="https://cdn.lylares.com/static/material-design/js/materialBerry-main.js"></script>
+		<script src="https://api.lylares.com/server/static/easydownload/js/popper.min.js"></script>
+        <script src="https://api.lylares.com/server/static/easydownload/js/bootstrap-material-design.min.js"></script>
+		<script src="https://api.lylares.com/server/static/easydownload/js/modernizr.js"></script>
+		<script src="https://api.lylares.com/server/static/easydownload/js/materialBerry-main.js"></script>
+		<script type="text/javascript">   
+	if($(window).width() < 751){
+		$(".blockquote-footer").attr("style","margin-top:-90px;");
+		$("#card-main").removeClass("card-body-up");
+	}
+	  $(document).ready(function(){
+            $("#goToTop").hide()
+            $(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>1){
+                        $("#goToTop").fadeIn();
+                    } else {
+                        $("#goToTop").fadeOut();
+                    }
+                });
+            });
+            $("#goToTop a").click(function(){
+                $("html,body").animate({scrollTop:0},800);
+                return false;
+            });
+        });
+        </script>
 	</body>
 </html>
