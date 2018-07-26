@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Easydownload
-Plugin URI: https://liulin.in/wordpress-plugins-easydownload.html
+Plugin URI: https://www.lylares.com/wordpress-plugins-easydownload.html
 Description: 本插件实现Wordpress文章的附件在独立页面进行下载，界面采用活跃的Google Material Design材料设计语言，完美兼容PC及移动端，请务必把插件文件夹下的download.php放到Wordpress安装目录。
 Author:liulin
-Author URI: https://liulin.in/
+Author URI: https://www.lylares.com/
 */
 
 global $wpdb;
