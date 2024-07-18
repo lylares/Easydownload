@@ -50,7 +50,7 @@ echo $Easydownload_other_password;
 		<!-- Fonts and icons //api.lylares.com/server/static/easydownload/-->
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
 		/>
-		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" href="https://api.lylares.com/server/static/easydownload/css/main.css">
 		<!-- Documentation extras -->
 		<style>
